@@ -38,18 +38,34 @@
 
 1. 이번에도 맨 위 노드를 탐색합니다.
 
+![탐색1](https://user-images.githubusercontent.com/68115246/119842839-fe96b080-bf41-11eb-91c5-b3014e2b39f0.png)
+
 2. 이번에도 같은 레벨에 있는 노드중 왼쪽에 있는 노드를 먼저 확인합니다. 어기서는 2를 먼저 확인합니다.
+
+![탐색2](https://user-images.githubusercontent.com/68115246/119842846-00607400-bf42-11eb-870f-53742f44c175.png)
 
 3. 2의 자식노드인 5를 확인합니다.
 
+![탐색3](https://user-images.githubusercontent.com/68115246/119842851-022a3780-bf42-11eb-8817-a4aa2e10d950.png)
+
 4. 5의 자식노드는 없습니다. 다시 노드 2로 돌아옵니다. 또 다른 자식노드가 없습니다. 같은 레벨의 오른쪽에있는 3을 탐색합니다.
+
+![탐색4](https://user-images.githubusercontent.com/68115246/119842862-035b6480-bf42-11eb-816c-e999710cd7b6.png)
 
 5. 3의 자식노드를 확인합니다. 2개의 노드 중 왼쪽에 있는 6을 확인합니다.
 
+![탐색5](https://user-images.githubusercontent.com/68115246/119842872-05252800-bf42-11eb-83e4-f248b6813d30.png)
+
 6. 6의 자식노드는 없습니다. 다시 노드 3으로 돌아옵니다. 이번엔 또 다른 자식노드 7을 탐색합니다.
+
+![탐색6](https://user-images.githubusercontent.com/68115246/119842886-06eeeb80-bf42-11eb-8a5e-00d29510ab7a.png)
 
 7. 7의 자식노드는 없습니다. 다시 노드 3으로 돌아옵니다. 노드 3의 자식노드는 다 확인했고 이번에는 같은 레벨에 확인하지 못한 4를 탐색합니다.
 
+![탐색7](https://user-images.githubusercontent.com/68115246/119842891-08201880-bf42-11eb-8686-03fa62f4f4f0.png)
+
 8. 4의 자식노드인 8을 확인합니다.
+
+![탐색8](https://user-images.githubusercontent.com/68115246/119842903-09514580-bf42-11eb-9d27-33bf5ed94ece.png)
 
 이렇게 DFS 방식으로 트리를 탐색했습니다. 순서는 1 - 2 - 5 - 3 - 6 - 7 - 4 - 8 순으로 확인할 수 있습니다.
